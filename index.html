@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Player characters on a grid</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets\styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Use the controls to move the characters.</h1>
+    </header>
+
+    <main>
+        <table id="grid">
+            <tr>
+                <td data-x="0" data-y="0"></td>
+                <td data-x="1" data-y="0"> <img src="img\tile.png" alt=""> </td>
+                <td data-x="2" data-y="0"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="0"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="0"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="0"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="0"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="0"><img src="img\tile.png" alt=""></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="1"><img src="img\tile.png" alt=""></td>
+                <td data-x="1" data-y="1"><img src="img\tile.png" alt=""></td>
+                <td data-x="2" data-y="1"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="1"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="1"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="1"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="1"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="1"><img src="img\tile.png" alt=""></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="2"><img src="img\tile.png" alt=""></td>
+                <td data-x="1" data-y="2"><img src="img\tile.png" alt=""></td>
+                <td data-x="2" data-y="2"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="2"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="2"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="2"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="2"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="2"><img src="img\tile.png" alt=""></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="3"><img src="img\tile.png" alt=""></td>
+                <td data-x="1" data-y="3"><img src="img\tile.png" alt=""></td>
+                <td data-x="2" data-y="3"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="3"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="3"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="3"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="3"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="3"><img src="img\tile.png" alt=""></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="4"><img src="img\tile.png" alt=""></td>
+                <td data-x="1" data-y="4"><img src="img\tile.png" alt=""></td>
+                <td data-x="2" data-y="4"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="4"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="4"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="4"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="4"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="4"><img src="img\tile.png" alt=""></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="5"><img src="img\tile.png" alt=""></td>
+                <td data-x="1" data-y="5"><img src="img\tile.png" alt=""></td>
+                <td data-x="2" data-y="5"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="5"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="5"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="5"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="5"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="5"><img src="img\tile.png" alt=""></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="6"><img src="img\tile.png" alt=""></td>
+                <td data-x="1" data-y="6"><img src="img\tile.png" alt=""></td>
+                <td data-x="2" data-y="6"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="6"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="6"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="6"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="6"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="6"><img src="img\tile.png" alt=""></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="7"><img src="img\tile.png" alt=""></td>
+                <td data-x="1" data-y="7"><img src="img\tile.png" alt=""></td>
+                <td data-x="2" data-y="7"><img src="img\tile.png" alt=""></td>
+                <td data-x="3" data-y="7"><img src="img\tile.png" alt=""></td>
+                <td data-x="4" data-y="7"><img src="img\tile.png" alt=""></td>
+                <td data-x="5" data-y="7"><img src="img\tile.png" alt=""></td>
+                <td data-x="6" data-y="7"><img src="img\tile.png" alt=""></td>
+                <td data-x="7" data-y="7">(7, 7)</td>
+            </tr>
+        </table>
+    </main>
+
+    <h2>Player 1</h2>
+    <nav id="player1">
+        <div class="b"><button class="c" data-direction="up" onclick="move(87)">w</button></div>
+        <button data-direction="left" onclick="move(65)">a</button>
+        <button data-direction="down" onclick="move(83)">s</button>
+        <button  data-direction="right" onclick="move(68)">d</button>
+    </nav>
+
+    <h2>Player 2</h2>
+    <nav id="player2">
+        <div class="b"><button class="c" data-direction="up" onclick="move(73)">i</button></div>
+        <button data-direction="left" onclick="move(74)">j</button>
+        <button data-direction="down" onclick="move(75)">k</button>
+        <button data-direction="right" onclick="move(76)">l</button>
+    </nav>
+
+    <footer>
+        <h3>Credits</h3>
+        <ul>
+            <li>Graphics courtesy of <a href="https://www.gameart2d.com/freebies.html">Game Art 2D</a>.</li>
+            <li>Sprite sheet CSS courtesy of <a href="http://www.spritecow.com/">Sprite Cow</a>.</li>
+        </ul>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

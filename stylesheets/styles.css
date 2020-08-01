@@ -1,0 +1,39 @@
+#grid {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#grid tr, #grid td {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid td{
+  width: 50px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 50px;
+  width: 80px;
+}
+button{
+  width: 25px;
+}
+nav .b{
+  flex: 0 0 100%;
+  text-align: center;
+  padding-bottom: 1px;
+}
+nav .c{
+  text-align: center;
+}
